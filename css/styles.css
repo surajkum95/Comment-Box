@@ -1,0 +1,41 @@
+.flex-container{
+  display: flex;
+  background-color: lavender;
+}
+.flex-container >div{
+  margin: 10px;
+  padding: 5px;
+}
+textarea{
+  border: 2px solid coral;
+  color: green;
+  font-style: oblique;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#main_title{
+  color: royalblue;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+#comment_btn{
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: coral;
+  color:  white;
+  margin: 5px;
+}
+.comments{
+  max-height: 30vw;
+  overflow: auto;
+}
+.comment-section{
+  /* border: 1px solid coral; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a{
+  text-decoration: none;
+  font-size: 10px;
+}

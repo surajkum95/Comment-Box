@@ -1,0 +1,10 @@
+@import 'colors';
+
+#reset {
+    background-color: $primaryColor;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+}
